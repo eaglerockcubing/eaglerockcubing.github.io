@@ -117,11 +117,9 @@ function loadFooter() {
             <br>
             <h4>Contact</h4>
 
-            <p>Remind: <a href="https://remind.com">We will have a remind code soon</a></p>
-
             <p>Discord: <a href="https://discord.gg/yKhXxhXExf">discord.gg/yKhXxhXExf</a></p>
 
-            <p>Email:  <a href="mailto:google@google.com">We will have a mail link soon</a></p>
+            <p>Email:  <a href="mailto:eaglerockcubing@gmail.com">eaglerockcubing@gmail.com</a></p>
 
         </div>
 
@@ -147,9 +145,9 @@ function loadFooter() {
 
             <h3>Socials</h3>
 
-            <p>Instagram: <a href="https://www.instagram.com/dreamwastaken/" target="_blank" rel="noreferrer noopener">dreamwastaken</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/eaglerockcubing/" target="_blank" rel="noreferrer noopener">eaglerockcubing</a></p>
 
-            <p>Twitter: @<a href="https://twitter.com/dreamwastaken" target="_blank" rel="noreferrer noopener">dreamwastaken</a></p>
+            <p>Twitter: <a href="https://twitter.com/EagleRockCubing" target="_blank" rel="noreferrer noopener">@EagleRockCubing</a></p>
 
         </div>
 
