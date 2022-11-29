@@ -2,6 +2,18 @@
     "last_updated": 1669700844523,
     "leaderboard": [
         {
+            "name": "Jacob Cheng",
+            "time": "24.96",
+            "date": "November 21, 2022",
+            "solves": [
+                { "time": "23.23", "trimmed": false, "scramble": "R F2 U B' U F B' R U D2 B2 R F2 R' D2 R' D2 R2 F2 L2" },
+                { "time": "30.01", "trimmed": false, "scramble": "B2 D' B' U2 F' L' D L U2 F2 B2 R B2 R2 B2 L F2 U2 D' B2" },
+                { "time": "35.00", "trimmed": true, "scramble": "F2 D2 L' F2 L2 U R2 F' L U2 B2 D2 F' D2 R2 B' D2 B2 L2 F' R2" },
+                { "time": "21.63", "trimmed": false, "scramble": "D B2 U R2 B2 F2 D' F2 L2 R2 F2 U B' L F' D F2 L B' U2 R'" },
+                { "time": "20.51", "trimmed": true, "scramble": "D' F L2 B' D2 R F D2 L2 U L2 F2 U' D2 L2 D F2 D L B'" }
+            ]
+        },
+        {
             "name": "Jackson Porter",
             "time": "26.59",
             "date": "November 21, 2022",
@@ -15,13 +27,13 @@
         },
         {
             "name": "Martin Berndt",
-            "time": "56.34",
+            "time": "56.93",
             "date": "November 21, 2022",
             "solves": [
-                { "time": "57.55", "trimmed": true, "scramble": "B L2 F2 R2 D2 L2 R2 B' D2 F2 R2 D2 L D2 R D B2 D L2 D' F'" },
+                { "time": "57.55", "trimmed": false, "scramble": "B L2 F2 R2 D2 L2 R2 B' D2 F2 R2 D2 L D2 R D B2 D L2 D' F'" },
                 { "time": "DNF(48.04)", "trimmed": true, "scramble": "L2 R2 D2 L2 F R2 F2 R2 B' L2 F2 U F U R B2 U' L F' L" },
                 { "time": "56.41", "trimmed": false, "scramble": "R2 F2 U R' F L U' R' D2 B2 R2 D B2 D R2 L2 F2 U2 F2 B D2" },
-                { "time": "55.78", "trimmed": false, "scramble": "L2 D2 U2 F2 L F2 R B2 L' U2 D' R2 D U2 B U2 R' D'" },
+                { "time": "55.78", "trimmed": true, "scramble": "L2 D2 U2 F2 L F2 R B2 L' U2 D' R2 D U2 B U2 R' D'" },
                 { "time": "56.83", "trimmed": false, "scramble": "R F L2 D' F2 R2 U2 R2 U B2 R2 D F D' F' L U B' U2" }
             ]
         }
