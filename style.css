@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: rgb(14, 143, 42);
+    --secondary-color: rgb(5, 68, 16);
+    --hover-color: rgb(55, 73, 55);
+    --accent-color: rgb(69, 69, 69);
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background: var(--accent-color);
+    display: grid;
+    grid-template-columns: 125px 50%;
+    padding: 5px;
+}
+
+nav .img {
+    grid-column: 1;
+    background-image: url('/media/erc_logo.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+nav .links {
+    grid-column: 2;
+    display: inline-block;
+    padding-top: 35px;
+}
+
+nav .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+nav .links a:hover {
+    color: rgb(170, 169, 169);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--accent-color);
+    padding: 100px 20%;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-rows: repeat(3, auto);
+}
+
+footer a {
+    text-decoration: underline;
+    color: rgb(239, 238, 238);
+    transition: 200ms;
+}
+
+footer a:hover {
+    color: rgb(189, 188, 188);
+}
+
+@media only screen and (min-width: 801px) {
+    footer .info {
+        padding: 10px;
+        grid-column: 1;
+    }
+    
+    footer .hyperlinks {
+        padding: 10px;
+        grid-column: 2;
+    }
+    
+    footer .socials {
+        padding: 10px;
+        grid-column: 3
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    footer .info {
+        padding: 10px;
+        grid-row: 1;
+    }
+    
+    footer .hyperlinks {
+        padding: 10px;
+        grid-row: 2;
+    }
+    
+    footer .socials {
+        padding: 10px;
+        grid-row: 3
+    }
+}
+
+.container {
+    padding: 10px 50px;
+}
+
+.button, button {
+    padding: 6px 12px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    transition: 250ms;
+    display: inline-block;
+}
+
+.button:hover, button:hover {
+    background: var(--hover-color);
+    cursor: pointer;
+}
+
+.button.selected, button.selected {
+    background: var(--secondary-color);
+}
+
+.alert {
+    width: 600px;
+    background: var(--primary-color);
+    border-radius: 6px;
+    border: 3px solid var(--accent-color);
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px 20px 20px;
+    box-shadow: 0px 0px 50px black;
+    z-index: 5;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(50, 50, 50, 0.9) transparent transparent transparent;
+  }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

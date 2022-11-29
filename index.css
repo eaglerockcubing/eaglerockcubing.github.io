@@ -1,0 +1,34 @@
+.header {
+    background-image: url('/media/banner.png');
+    background-position-y: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 150px;
+    text-shadow: 4px 4px 4px black;
+    font-weight: 800;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.leaderboards {
+    background: rgb(113, 113, 113);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    font-size: 20px;
+}
