@@ -3,14 +3,14 @@
     "leaderboard": [
         {
             "name": "Jacob Cheng",
-            "time": "24.96",
-            "date": "November 21, 2022",
+            "time": "26.59",
+            "date": "November 29, 2022",
             "solves": [
-                { "time": "23.23", "trimmed": false, "scramble": "R F2 U B' U F B' R U D2 B2 R F2 R' D2 R' D2 R2 F2 L2" },
-                { "time": "30.01", "trimmed": false, "scramble": "B2 D' B' U2 F' L' D L U2 F2 B2 R B2 R2 B2 L F2 U2 D' B2" },
-                { "time": "35.00", "trimmed": true, "scramble": "F2 D2 L' F2 L2 U R2 F' L U2 B2 D2 F' D2 R2 B' D2 B2 L2 F' R2" },
-                { "time": "21.63", "trimmed": false, "scramble": "D B2 U R2 B2 F2 D' F2 L2 R2 F2 U B' L F' D F2 L B' U2 R'" },
-                { "time": "20.51", "trimmed": true, "scramble": "D' F L2 B' D2 R F D2 L2 U L2 F2 U' D2 L2 D F2 D L B'" }
+                { "time": "25.51", "trimmed": false, "scramble": "L U D' R B' R F B D' B' U' R U' B D F L' R' D R U' L' B' R' F2" },
+                { "time": "21.44", "trimmed": true, "scramble": "L U R B' F D' U2 L' U' L' F' B2 R F2 B L U' R' F' D' R2 L' F' U2 D2" },
+                { "time": "23.50", "trimmed": false, "scramble": "R L F B' L2 B' U L' R' U2 B L2 F2 R2 L U R L' D2 R' F D2 B D B" },
+                { "time": "29.63", "trimmed": false, "scramble": "L D2 B R2 U2 D L2 B' L' F2 D B' R D U L R' U2 D F2 U R U2 B' D2" },
+                { "time": "32.34", "trimmed": true, "scramble": "F' B' L D2 L2 R U2 L2 U' F L' D' L' B R F2 U2 R' D' F' R' U2 D L' B'" }
             ]
         },
         {
